@@ -3,27 +3,26 @@
 
 @custom-variant dark (&:is(.dark *));
 
-/* PRD 디자인 시스템: Primary #0055FB(토스 블루), Background #F9FAFB, Card rounded-xl shadow-sm, Font Pretendard */
 :root {
-  --background: #F9FAFB;
+  --background: oklch(1 0 0);
   --foreground: oklch(0.145 0 0);
-  --card: #ffffff;
+  --card: oklch(1 0 0);
   --card-foreground: oklch(0.145 0 0);
-  --popover: #ffffff;
+  --popover: oklch(1 0 0);
   --popover-foreground: oklch(0.145 0 0);
-  --primary: #0055FB;
-  --primary-foreground: #ffffff;
-  --secondary: oklch(0.965 0.005 264);
+  --primary: oklch(0.205 0 0);
+  --primary-foreground: oklch(0.985 0 0);
+  --secondary: oklch(0.97 0 0);
   --secondary-foreground: oklch(0.205 0 0);
-  --muted: oklch(0.965 0.005 264);
-  --muted-foreground: oklch(0.5 0 0);
-  --accent: oklch(0.965 0.005 264);
+  --muted: oklch(0.97 0 0);
+  --muted-foreground: oklch(0.556 0 0);
+  --accent: oklch(0.97 0 0);
   --accent-foreground: oklch(0.205 0 0);
   --destructive: oklch(0.577 0.245 27.325);
   --destructive-foreground: oklch(0.577 0.245 27.325);
-  --border: oklch(0.922 0.005 264);
-  --input: oklch(0.922 0.005 264);
-  --ring: #0055FB;
+  --border: oklch(0.922 0 0);
+  --input: oklch(0.922 0 0);
+  --ring: oklch(0.708 0 0);
   --chart-1: oklch(0.646 0.222 41.116);
   --chart-2: oklch(0.6 0.118 184.704);
   --chart-3: oklch(0.398 0.07 227.392);
@@ -76,7 +75,7 @@
 }
 
 @theme inline {
-  --font-sans: 'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+  --font-sans: 'Geist', 'Geist Fallback';
   --font-mono: 'Geist Mono', 'Geist Mono Fallback';
   --color-background: var(--background);
   --color-foreground: var(--foreground);
